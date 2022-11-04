@@ -25,7 +25,7 @@ To analyze **KEEN**'s performance on the datasets, please run our code as follow
 ### 3.1 WN18RR
 
 ```python
-CUDA_VISIBLE_DEVICES=0 python -u runs.py --do_train --do_valid --do_test --data_path ./data/wn18rr/ --model KEEN -n 1024 -b 256 -d 512 -g 6.0 -a 0.5 -lr 0.0001 --max_steps 80000 -save models/KEEN_wn18rr --test_batch_size 8 --cuda
+CUDA_VISIBLE_DEVICES=0 python -u runs.py --do_train --do_valid --do_test --data_path ./data/WN18RR/ --model KEEN -n 1024 -b 256 -d 512 -g 6.0 -a 0.5 -lr 0.0001 --max_steps 80000 -save models/KEEN_wn18rr --test_batch_size 8 --cuda
 ```
 
 ### 3.2 FB15k-237
